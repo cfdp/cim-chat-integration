@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="da">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href=" https://chattest.ecmr.biz/Content/chatclient/cm.chatclient.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <div class="main">
+    <h1>This is a test integration of CIM chat.</h1>
+    <input type='text' id='txt1' />
+    <input type='button' id='button' value='Click me' />
+
+    <div class="status-buttons">
+      <div class="status-buttons-title">Status på chats:</div>
+    </div>
+    <iframe class="cm-Chat-container" src=""></iframe>
+    <div class="iframeWrapper"><iframe class="cm-Chat-container" src="" style="vertical-align:top;"></iframe></div>
+  </div>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+  </script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript" src=" https://chattest.ecmr.biz/Scripts/chatclient/cm.chatclient.js"></script>
+
+
+</body>
+
+</html>
